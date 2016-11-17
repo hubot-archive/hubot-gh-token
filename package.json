@@ -1,0 +1,38 @@
+{
+  "name": "hubot-gh-token",
+  "description": "Stores GitHub Personal Access Tokens in Hubot's brain",
+  "version": "0.0.1",
+  "author": "@benwtr",
+  "keywords": [
+    "hubot",
+    "github",
+    "token",
+    "auth"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hubot-scripts/hubot-gh-token.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hubot-scripts/hubot-gh-token/token"
+  },
+  "dependencies": {
+    "fernet": "^0.3.0",
+    "octonode": "^0.7.6"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "grunt test"
+  }
+}
